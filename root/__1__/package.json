@@ -1,0 +1,14 @@
+{
+  "name": "__1__",
+  "version": "1.0.0",
+  "description": "> An awesome project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/docsify-cli/bin/docsify serve  ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docsify-cli": "^4.1.12"
+  }
+}

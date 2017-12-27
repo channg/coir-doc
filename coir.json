@@ -1,0 +1,51 @@
+{
+  "check":[
+    {
+      "tip":"what document want you check ?\n> ( e : docute)\n> ( g : gitbook)\n> ( d : docsify)",
+      "color":"green",
+      "input":[
+        {
+          "jump":"2",
+          "test":"^e$",
+          "output": "docute"
+        },{
+          "jump":"1",
+          "test":"^g$",
+          "output": "gitbook"
+        },{
+          "test":"^d$",
+          "output": "docsify"
+        }
+      ]
+    },{
+      "tip":"Enter you folder name (default:docs).",
+      "color":"green",
+      "default":"docs",
+      "input":[{
+        "jump":"2",
+        "test":".*",
+        "output":"__input__"
+      }]
+    },{
+      "color":"green",
+      "tip":"Enter you folder name (default:docs).",
+      "default":"docs",
+      "input":[{
+        "jump":"1",
+        "test":".*",
+        "output":"__input__"
+      }]
+    },{
+      "color":"green",
+      "tip":"Enter you folder name (default:docs).",
+      "default":"docs",
+      "input":[{
+        "test":".*",
+        "output":"__input__"
+      }]
+    }
+  ],
+  "fileName":".*",
+  "bin":"node i",
+  "end":""
+}

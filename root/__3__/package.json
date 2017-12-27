@@ -1,0 +1,14 @@
+{
+  "name": "__3__",
+  "version": "1.0.0",
+  "description": "> An awesome project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/docute-cli/dist/bin/docute ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docute-cli": "^0.6.0"
+  }
+}
