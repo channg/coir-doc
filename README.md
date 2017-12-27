@@ -1,4 +1,4 @@
-#coir-doc
+# coir-doc
 > `coir-doc` is a `coir` Configuration project. 
 > `coir-doc` allows you to quickly build a web document.
 
