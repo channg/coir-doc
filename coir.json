@@ -1,7 +1,7 @@
 {
   "check":[
     {
-      "tip":"what document want you check ?\n> ( e : docute)\n> ( g : gitbook)\n> ( d : docsify)",
+      "tip":"what document want you checkout ?\n> ( e : docute)\n> ( g : gitbook)\n> ( d : docsify)",
       "color":"green",
       "input":[
         {
